@@ -1,5 +1,6 @@
 <?php
-for ($x = 0; $x <= 10; $x++) {
-    echo "The number is: $x <br>";
-}
-?>
+for ($i = 0; $i <= 10; $i++) { ?>
+    <div id="<?php echo $i; ?>" class="numberedDivs"
+        <?php if($i % 2 == 0){echo "style='color:red'";}?>>
+    	This is a div #<?php echo $i; ?></div>
+<?php }?>
