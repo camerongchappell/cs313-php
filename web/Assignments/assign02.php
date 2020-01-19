@@ -19,7 +19,7 @@
 <p class="sentence">Here is one of my favorite quotes:</p><blockquote class="sentence" cite="https://uproxx.com/tv/quotes-from-the-office-michael-scotts-best-lines/">"You miss 100% of the shots you don't take. -Wayne Gretzky"-Michael Scott</blockquote><br>
 
 <button type="button" onclick="buttonClick();">Click Me</button><br><br>
-<a href="assignments.html">CS 313 Assignments</a><br>
+<a href="assignments.html">CS 313 Assignments</a><br><br>
 
 <div class="sentence">
 <?php 
