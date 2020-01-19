@@ -1,0 +1,21 @@
+body {
+	background-color: lightgrey;
+}
+img {
+	float: right;
+	width: 347.5px;
+	height: 347.5px;
+	right: 10px;
+	position: absolute;
+	top: 85px;
+}
+h1 {
+	font-family: verdana;
+}
+.sentence {
+	font-family:calibri;
+}
+a {
+	color: blue;
+	font-weight: bold;
+}
