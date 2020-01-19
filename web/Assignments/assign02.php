@@ -20,7 +20,10 @@
 
 <button type="button" onclick="buttonClick();">Click Me</button><br><br>
 <a href="assignments.html">CS 313 Assignments</a>
-<?php echo date("D M d, Y G:i a"); ?>
+<?php 
+    date_default_timezone_set("America/Denver");
+    echo date("D M d, Y G:i a");
+?>
 </body>
 
 </html>
