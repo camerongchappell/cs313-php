@@ -1,3 +1,3 @@
 function buttonClick() {
-  alert("Welcome to my home page!");
+  alert("If you can't already tell, Spider-Man is my favorite superhero!");
 }
