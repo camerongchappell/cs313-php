@@ -1,6 +1,10 @@
 <html>
 <body>
-<form action="classFormPost.php" method="post">
+<form action="team03FormPost.php" method="post">
+  <div class="form-group">
+    <label for="exampleInputName1">Name</label>
+    <input name="nameForPHP" type="text" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Enter name">
+  </div>
   <div class="form-group">
     <label for="exampleInputEmail1">Email address</label>
     <input name="emailForPHP" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
