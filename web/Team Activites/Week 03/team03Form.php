@@ -24,14 +24,14 @@
   <input type="radio" name="major" value="Computer Engineering"> Computer Engineering<br>
   <textarea name="comments" rows="4" cols="50">
 
-  </textarea>
-  <input type="checkbox" name="country" value="North America"> North America<br>
-  <input type="checkbox" name="country" value="South America"> South America<br>
-  <input type="checkbox" name="country" value="Europe"> Europe<br>
-  <input type="checkbox" name="country" value="Asia"> Asia<br>
-  <input type="checkbox" name="country" value="Australia"> Australia<br>
-  <input type="checkbox" name="country" value="Africa"> Africa<br>
-  <input type="checkbox" name="country" value="Antarctica"> Antarctica<br>
+  </textarea><br>
+  <input type="checkbox" name="country[]" value="North America"> North America<br>
+  <input type="checkbox" name="country[]" value="South America"> South America<br>
+  <input type="checkbox" name="country[]" value="Europe"> Europe<br>
+  <input type="checkbox" name="country[]" value="Asia"> Asia<br>
+  <input type="checkbox" name="country[]" value="Australia"> Australia<br>
+  <input type="checkbox" name="country[]" value="Africa"> Africa<br>
+  <input type="checkbox" name="country[]" value="Antarctica"> Antarctica<br>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
 </body>
