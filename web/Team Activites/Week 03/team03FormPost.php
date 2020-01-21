@@ -12,9 +12,7 @@
     echo "The countries you have visited are: ";
     if(!empty($_POST["country"])) {
         foreach($_POST["country"] as $country) {
-            echo $country;
-            if(!end(($_POST["country"])))
-                echo ", ";
+            echo "$country<br>";
         }
     }
 ?>
