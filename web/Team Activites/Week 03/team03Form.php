@@ -22,7 +22,7 @@
   <input type="radio" name="major" value="Web Design and Development"> Web Design and Development<br>
   <input type="radio" name="major" value="Computer Information Technology"> Computer Information Technology<br>
   <input type="radio" name="major" value="Computer Engineering"> Computer Engineering<br>
-  <textarea rows="4" cols="50">
+  <textarea name="comments" rows="4" cols="50">
 
   </textarea>
   <button type="submit" class="btn btn-primary">Submit</button>
