@@ -5,8 +5,10 @@
     $password = htmlspecialchars($_POST["passwordForPHP"]); // this is called santizing and keeps you from being hacked
     $major = htmlspecialChars($_POST["major"]);
     $comments = htmlspecialChars($_POST["comments"]);
+    $country = htmlspecialChars($_POST["country"]);
     
     // do something with the data
     echo "Your name is $name, your email is $email, and your password is $password.  Your major is $major.<br>";
-    echo "Your comments were $comments."
+    echo "Your comments: $comments.<br>";
+    echo "The countries you have visited are: $country";
 ?>
