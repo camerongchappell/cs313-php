@@ -1,0 +1,20 @@
+body {
+	background-image: url("ps4.jpg");
+  	background-repeat: no-repeat;
+ 	background-size: 1575px 760px;
+ 	color: white;
+}
+a {
+	color: white;
+	font-weight: bold;
+ 	text-decoration: underline;
+}
+a:hover {
+  	background-color: black;
+}
+hr {
+	border-color: white;
+}
+.form-group {
+	font-weight: bold;
+}

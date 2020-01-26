@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>CS 313</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.wst.common.project.facet.core.builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.wst.validation.validationbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.dltk.core.scriptbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.php.core.PHPNature</nature>
+		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>Assignments/Week 03</name>
+			<type>2</type>
+			<location>C:/Users/camch/Desktop/Cameron/Cameron College/Winter 2020/CS 313/cs313-php/web/Assignments/Week 03</location>
+		</link>
+		<link>
+			<name>Team Activities/Week 03</name>
+			<type>2</type>
+			<location>C:/Users/camch/Desktop/Cameron/Cameron College/Winter 2020/CS 313/cs313-php/web/Team Activities/Week 03</location>
+		</link>
+		<link>
+			<name>Assignments/Week 02/Spider_Man.jpg</name>
+			<type>1</type>
+			<location>C:/Users/camch/Desktop/Cameron/Cameron College/Winter 2020/CS 313/cs313-php/web/Assignments/Spider_Man.jpg</location>
+		</link>
+		<link>
+			<name>Assignments/Week 02/assign02.css</name>
+			<type>1</type>
+			<location>C:/Users/camch/Desktop/Cameron/Cameron College/Winter 2020/CS 313/cs313-php/web/Assignments/assign02.css</location>
+		</link>
+		<link>
+			<name>Assignments/Week 02/assign02.html</name>
+			<type>1</type>
+			<location>C:/Users/camch/Desktop/Cameron/Cameron College/Winter 2020/CS 313/cs313-php/web/Assignments/assign02.html</location>
+		</link>
+		<link>
+			<name>Assignments/Week 02/assign02.js</name>
+			<type>1</type>
+			<location>C:/Users/camch/Desktop/Cameron/Cameron College/Winter 2020/CS 313/cs313-php/web/Assignments/assign02.js</location>
+		</link>
+		<link>
+			<name>Assignments/Week 02/assign02.php</name>
+			<type>1</type>
+			<location>C:/Users/camch/Desktop/Cameron/Cameron College/Winter 2020/CS 313/cs313-php/web/Assignments/assign02.php</location>
+		</link>
+		<link>
+			<name>Assignments/Week 02/assignments.html</name>
+			<type>1</type>
+			<location>C:/Users/camch/Desktop/Cameron/Cameron College/Winter 2020/CS 313/cs313-php/web/Assignments/assignments.html</location>
+		</link>
+		<link>
+			<name>Assignments/Week 02/me.jpg</name>
+			<type>1</type>
+			<location>C:/Users/camch/Desktop/Cameron/Cameron College/Winter 2020/CS 313/cs313-php/web/Assignments/me.jpg</location>
+		</link>
+		<link>
+			<name>Assignments/Week 03/ps4.jpg</name>
+			<type>1</type>
+			<location>C:/Users/camch/Desktop/Cameron/Cameron College/Winter 2020/CS 313/cs313-php/web/Assignments/Week 03/ps4.jpg</location>
+		</link>
+		<link>
+			<name>Team Activities/Week 02/team01.css</name>
+			<type>1</type>
+			<location>C:/Users/camch/Desktop/Cameron/Cameron College/Winter 2020/CS 313/cs313-php/web/Team Activites/Week 02/team01.css</location>
+		</link>
+		<link>
+			<name>Team Activities/Week 02/team01.html</name>
+			<type>1</type>
+			<location>C:/Users/camch/Desktop/Cameron/Cameron College/Winter 2020/CS 313/cs313-php/web/Team Activites/Week 02/team01.html</location>
+		</link>
+		<link>
+			<name>Team Activities/Week 02/team01.js</name>
+			<type>1</type>
+			<location>C:/Users/camch/Desktop/Cameron/Cameron College/Winter 2020/CS 313/cs313-php/web/Team Activites/Week 02/team01.js</location>
+		</link>
+		<link>
+			<name>Team Activities/Week 02/team02.php</name>
+			<type>1</type>
+			<location>C:/Users/camch/Desktop/Cameron/Cameron College/Winter 2020/CS 313/cs313-php/web/Team Activites/Week 02/team02.php</location>
+		</link>
+		<link>
+			<name>Class/Week 03/Cookies/thursday.php</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Class/Week%2003/Cookies/thursday.php</locationURI>
+		</link>
+		<link>
+			<name>Class/Week 03/Cookies/thursdayCookie.php</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Class/Week%2003/Cookies/thursdayCookie.php</locationURI>
+		</link>
+		<link>
+			<name>Class/Week 03/Cookies/thursdaySession1.php</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Class/Week%2003/Cookies/thursdaySession1.php</locationURI>
+		</link>
+		<link>
+			<name>Class/Week 03/Cookies/thursdaySession2.php</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Class/Week%2003/Cookies/thursdaySession2.php</locationURI>
+		</link>
+		<link>
+			<name>Class/Week 03/Form/classForm.php</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Class/Week%2003/Form/classForm.php</locationURI>
+		</link>
+		<link>
+			<name>Class/Week 03/Form/classFormPost.php</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Class/Week%2003/Form/classFormPost.php</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
