@@ -6,15 +6,15 @@ CREATE TABLE public.user (
 );
 
 CREATE TABLE public.suit (
-   id             SERIAL         NOT NULL    PRIMARY KEY,
+   id            SERIAL         NOT NULL    PRIMARY KEY,
    name			  VARCHAR(100)   NOT NULL    UNIQUE,
-   color          VARCHAR(100)   NOT NULL
+   color         VARCHAR(100)   NOT NULL
 );
 
 CREATE TABLE public.gadget (
-   id             SERIAL         NOT NULL    PRIMARY KEY,
+   id            SERIAL         NOT NULL    PRIMARY KEY,
    name			  VARCHAR(100)   NOT NULL    UNIQUE,
-   suit_id        INT            NOT NULL    REFERENCES        public.suit(id)
+   suit_id       INT            NOT NULL    REFERENCES        public.suit(id)
 );
 
 INSERT INTO public.user (username, password, display_name)
