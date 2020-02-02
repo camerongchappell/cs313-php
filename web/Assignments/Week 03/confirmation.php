@@ -16,7 +16,7 @@
     	<h1>Confirmation</h1><hr>
         <?php
             $size = count($_SESSION['items']);
-            echo "Purchased $size item(s) on ";
+            echo "Purchased $size item(s) on "; 
             date_default_timezone_set("America/Denver");
             echo date("D M d, Y ");
             echo "at ";

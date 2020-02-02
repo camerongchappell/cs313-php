@@ -19,7 +19,7 @@
   <input type="checkbox" name="item[]" value="Processor Unit"> Processor Unit - $60.00<br>
   <input type="checkbox" name="item[]" value="AC adapter and power cord"> AC adapter and power cord - $30.00<br>
   <input type="checkbox" name="item[]" value="Move Controllers"> Move Controllers - $100.00<br>
-  <input type="checkbox" name="item[]" value="HDMI Cable"> HDMI Cable - $5.00<br>
+  <input type="checkbox" name="item[]" value="HDMI Cable"> HDMI Cable - $5.00<br> 
   <input type="checkbox" name="item[]" value="Micro USB Cable"> Micro USB Cable - $3.00<br>
   <input type="checkbox" name="item[]" value="Earphones"> Earphones - $20.00<br>
   <input type="checkbox" name="item[]" value="Stand"> Stand - $25.00<br><br>
