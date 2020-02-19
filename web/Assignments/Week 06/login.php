@@ -48,7 +48,7 @@ $db = get_db();
                <br><br><h1 style="color:white;"><strong>New User? Sign up!</strong></h1>
                <input type="text" class="form-control" placeholder="Username" name="username"><br>
                <input type="password" class="form-control" placeholder="Password" name="password"><br>
-                                    <?php
+                    <?php
                         $statement = $db->prepare("SELECT * FROM login");
                         $statement->execute();
                         while ($row = $statement->fetch(PDO::FETCH_ASSOC))
