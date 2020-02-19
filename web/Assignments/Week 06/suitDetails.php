@@ -37,12 +37,13 @@
                $name = $row['name'];
                $color = $row['color'];
                $image = $row['image'];
+               $year = $row['year_created'];
                $imageData = base64_encode(file_get_contents($image));
                while ($row2 = $statement2->fetch(PDO::FETCH_ASSOC))
                {
                    $gadget = $row2['name'];
                }
-               echo "<p><strong>Name: $name<br>Colors: $color<br>Gadgets:  $gadget<br></strong><p>";
+               echo "<p><strong>Name: $name<br>Colors: $color<br>Gadgets:  $gadget<br>Year Created:  $year</strong><p>";
                echo '<img src="data:image/jpeg;base64,'.$imageData.'">';
             }
          ?>

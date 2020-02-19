@@ -25,6 +25,7 @@
         <h1 style="text-align:center">Spider-Man Suit List</h1><br>
         <div class="row">
             <div class="col-lg-6">
+            Missing suit? <a href="createSuit.php">Create one!</a><br>
                 <?php
                     $statement = $db->prepare("SELECT * FROM suit");
                     $statement->execute();
@@ -53,16 +54,17 @@
                         $suitData->execute();
                         while ($row = $suitData->fetch(PDO::FETCH_ASSOC))
                         {
+                            $id = $row['id'];
                             $name = $row['name'];
                             $color = $row['color'];
-                            $id = $row['id'];
+                            $year = $row['year_created'];
                             $statement = $db->prepare("SELECT name FROM gadget WHERE suit_id = $id");
                             $statement->execute(); 
                             while ($row2 = $statement->fetch(PDO::FETCH_ASSOC))
                             {
                                 $gadget = $row2['name'];
                             }
-                            echo "<p><strong>Name: $name<br>Colors: $color<br>Gadgets:  $gadget<p>";
+                            echo "<p><strong>Name: $name<br>Colors: $color<br>Gadgets:  $gadget<br>Year created:  $year<p>";
                         }
                     }
                 ?>
