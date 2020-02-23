@@ -1,19 +1,18 @@
-CREATE TABLE public.user (
+CREATE TABLE public.login (
    id             SERIAL         NOT NULL    PRIMARY KEY,
    username       VARCHAR(100)   NOT NULL    UNIQUE,
    password       VARCHAR(100)   NOT NULL,
-   display_name   VARCHAR(100)   NOT NULL
 );
 
 CREATE TABLE public.suit (
    id             SERIAL         NOT NULL    PRIMARY KEY,
-   name			  VARCHAR(100)   NOT NULL    UNIQUE,
+   name			   VARCHAR(100)   NOT NULL,   UNIQUE
    color          VARCHAR(100)   NOT NULL
 );
 
 CREATE TABLE public.gadget (
    id             SERIAL         NOT NULL    PRIMARY KEY,
-   name			  VARCHAR(100)   NOT NULL    UNIQUE,
+   name			   VARCHAR(100)   NOT NULL,
    suit_id        INT            NOT NULL    REFERENCES        public.suit(id)
 );
 
